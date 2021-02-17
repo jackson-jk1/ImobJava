@@ -2,7 +2,7 @@ package ProjetoImob.model.domain;
 
 import java.sql.Date;
 
-public class PesquisaCadastral extends Telefones{
+public class PesquisaCadastral extends Email{
 
 	private int id_Pesquisa;
 

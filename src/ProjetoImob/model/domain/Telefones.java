@@ -1,6 +1,6 @@
 package ProjetoImob.model.domain;
 
-public class Telefones extends Email{
+public class Telefones{
 
 	private int id_telefone;
 
