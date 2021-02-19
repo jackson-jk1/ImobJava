@@ -4,7 +4,7 @@ import java.sql.Date;
 
 public class PessoaJuridica {
 
-	private int idPessoaJ;
+	private int idPessoaPJ;
 
 	private int id_Codigo_Pessoa;
 
@@ -29,12 +29,12 @@ public class PessoaJuridica {
 	private String status_cadastro;
 
 
-	public int getIdPessoaJ() {
-		return idPessoaJ;
+	public int getIdPessoaPJ() {
+		return idPessoaPJ;
 	}
 
-	public void setIdPessoaJ(int idPessoaJ) {
-		this.idPessoaJ = idPessoaJ;
+	public void setIdPessoaPJ(int idPessoaPJ) {
+		this.idPessoaPJ = idPessoaPJ;
 	}
 
 	public int getId_Codigo_Pessoa() {

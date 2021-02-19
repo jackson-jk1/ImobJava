@@ -4,7 +4,7 @@ public class ClientePessoaF extends  PessoaFisica{
 
 	private int id_clientePF;
 
-	private int id_codigo_clientePj;
+	private int id_codigo_clientePF;
 
 	private String status_comprador;
 
@@ -22,12 +22,12 @@ public class ClientePessoaF extends  PessoaFisica{
 		this.id_clientePF = id_clientePF;
 	}
 
-	public int getId_codigo_clientePj() {
-		return id_codigo_clientePj;
+	public int getId_codigo_clientePF() {
+		return id_codigo_clientePF;
 	}
 
-	public void setId_codigo_clientePj(int id_codigo_clientePj) {
-		this.id_codigo_clientePj = id_codigo_clientePj;
+	public void setId_codigo_clientePF(int id_codigo_clientePF) {
+		this.id_codigo_clientePF = id_codigo_clientePF;
 	}
 
 	public String getStatus_comprador() {

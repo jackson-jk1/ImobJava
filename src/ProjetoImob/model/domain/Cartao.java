@@ -20,6 +20,16 @@ public class Cartao extends Pagamentos{
 
 	private String anotacoes;
 
+	private  String bandeira_cartao;
+
+	public String getBandeira_cartao() {
+		return bandeira_cartao;
+	}
+
+	public void setBandeira_cartao(String bandeira_cartao) {
+		this.bandeira_cartao = bandeira_cartao;
+	}
+
 	public int getId_Cartao() {
 		return id_Cartao;
 	}

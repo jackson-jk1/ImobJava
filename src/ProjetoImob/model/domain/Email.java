@@ -6,7 +6,7 @@ public class Email extends Telefones {
 
 	private int id_Codigo_Email;
 
-	private int tipo_email;
+	private String tipo_email;
 
 	private String email;
 
@@ -26,11 +26,11 @@ public class Email extends Telefones {
 		this.id_Codigo_Email = id_Codigo_Email;
 	}
 
-	public int getTipo_email() {
+	public String getTipo_email() {
 		return tipo_email;
 	}
 
-	public void setTipo_email(int tipo_email) {
+	public void setTipo_email(String tipo_email) {
 		this.tipo_email = tipo_email;
 	}
 

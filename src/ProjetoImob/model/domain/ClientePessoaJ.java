@@ -2,11 +2,10 @@ package ProjetoImob.model.domain;
 
 public class ClientePessoaJ extends PessoaJuridica{
 
-	private int id_clienteJ;
+	private int id_clientePJ;
 
-	private int id_codigo_pessoaJ;
+	private int id_codigo_pessoaPJ;
 
-	private int attribute198;
 
 	private String status_comprador;
 
@@ -16,28 +15,20 @@ public class ClientePessoaJ extends PessoaJuridica{
 
 	private String status_locatario;
 
-	public int getId_clienteJ() {
-		return id_clienteJ;
+	public int getId_clientePJ() {
+		return id_clientePJ;
 	}
 
-	public void setId_clienteJ(int id_clienteJ) {
-		this.id_clienteJ = id_clienteJ;
+	public void setId_clientePJ(int id_clienteJ) {
+		this.id_clientePJ = id_clienteJ;
 	}
 
-	public int getId_codigo_pessoaJ() {
-		return id_codigo_pessoaJ;
+	public int getId_codigo_pessoaPJ() {
+		return id_codigo_pessoaPJ;
 	}
 
-	public void setId_codigo_pessoaJ(int id_codigo_pessoaJ) {
-		this.id_codigo_pessoaJ = id_codigo_pessoaJ;
-	}
-
-	public int getAttribute198() {
-		return attribute198;
-	}
-
-	public void setAttribute198(int attribute198) {
-		this.attribute198 = attribute198;
+	public void setId_codigo_pessoaPJ(int id_codigo_pessoaPJ) {
+		this.id_codigo_pessoaPJ = id_codigo_pessoaPJ;
 	}
 
 	public String getStatus_comprador() {
